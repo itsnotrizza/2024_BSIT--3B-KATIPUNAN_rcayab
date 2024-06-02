@@ -11,6 +11,7 @@ if (isset($_GET['logout'])) {
     header("location: ../index.php");
     die();
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -94,7 +95,7 @@ if (isset($_GET['logout'])) {
 <body>
 
     <nav class="navbar">
-  <h2>Katipunan <img src="../img/coffee-beans.png" width="50px" height="50px"></h2>
+  <h2 style="font-family: georgia;"><b>Katipunan</b> <img src="../img/coffee-beans.png" width="50px" height="50px"></h2>
         <a href="?logout" class="float-right">Logout</a>
     </nav>
     <div class="container">
@@ -110,4 +111,3 @@ if (isset($_GET['logout'])) {
 </body>
 <script src="../js/bootstrap.js"></script>
 </html>
-
