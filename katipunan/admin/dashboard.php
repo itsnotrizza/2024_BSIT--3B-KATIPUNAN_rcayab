@@ -105,7 +105,7 @@ if (isset($_GET['logout'])) {
                                
                                 <table class="table table-striped">
                                     <tr>
-                                        <th>Item Name</th>
+                                        <th>Items Name</th>
                                         <th>Total Item Qty</th>
                                         <th>Total Sales</th>
                                     </tr>
@@ -262,5 +262,3 @@ if (isset($_GET['logout'])) {
 </body>
 <script src="../js/bootstrap.js"></script>
 </html>
-
-
