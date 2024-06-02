@@ -105,7 +105,7 @@ if (isset($_GET['logout'])) {
                                
                                 <table class="table table-striped">
                                     <tr>
-                                        <th>Date</th>
+                                        <th>Item Name</th>
                                         <th>Total Item Qty</th>
                                         <th>Total Sales</th>
                                     </tr>
